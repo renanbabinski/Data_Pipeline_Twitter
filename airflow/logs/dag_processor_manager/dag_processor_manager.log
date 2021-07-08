@@ -1,0 +1,487 @@
+[2021-07-08 15:19:48,610] {dag_processing.py:839} INFO - Processing files using up to 1 processes at a time 
+[2021-07-08 15:19:48,610] {dag_processing.py:840} INFO - Process each file at most once every 0 seconds
+[2021-07-08 15:19:48,610] {dag_processing.py:841} INFO - Checking for new files in /home/anonymous/Documents/datapipeline/airflow/dags every 300 seconds
+[2021-07-08 15:19:48,610] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:19:48,610] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:14:48.610896+00:00
+[2021-07-08 15:19:48,722] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-07-08T18:19:48
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+================================================================================
+[2021-07-08 15:20:00,611] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:20:00,612] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:15:00.612013+00:00
+[2021-07-08 15:20:12,625] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:20:12,625] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:15:12.625897+00:00
+[2021-07-08 15:20:18,736] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-07-08T18:19:54
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-07-08T18:20:04
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-07-08T18:20:18
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-07-08T18:20:14
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-07-08T18:19:48
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-07-08T18:19:56
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-07-08T18:20:02
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-07-08T18:20:12
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-07-08T18:20:00
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-07-08T18:19:52
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-07-08T18:20:10
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-07-08T18:20:06
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-07-08T18:19:58
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-07-08T18:20:16
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-07-08T18:19:50
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-07-08T18:20:08
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+================================================================================
+[2021-07-08 15:20:24,639] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:20:24,639] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:15:24.639560+00:00
+[2021-07-08 15:20:36,652] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:20:36,652] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:15:36.652971+00:00
+[2021-07-08 15:20:48,666] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:20:48,666] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:15:48.666351+00:00
+[2021-07-08 15:20:48,782] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-07-08T18:20:44
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-07-08T18:20:04
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-07-08T18:20:22
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-07-08T18:20:32
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-07-08T18:20:18
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-07-08T18:20:36
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-07-08T18:20:14
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-07-08T18:20:38
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-07-08T18:20:46
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-07-08T18:20:02
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-07-08T18:20:12
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-07-08T18:20:20
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-07-08T18:20:00
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-07-08T18:20:42
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-07-08T18:20:34
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-07-08T18:20:10
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-07-08T18:20:26
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-07-08T18:20:06
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-07-08T18:20:48
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-07-08T18:20:28
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-07-08T18:20:30
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-07-08T18:20:16
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-07-08T18:20:40
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-07-08T18:20:08
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-07-08T18:20:24
+================================================================================
+[2021-07-08 15:21:00,679] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:21:00,680] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:16:00.680087+00:00
+[2021-07-08 15:21:12,693] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:21:12,694] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:16:12.694081+00:00
+[2021-07-08 15:21:18,804] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-07-08T18:20:44
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-07-08T18:20:54
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-07-08T18:21:12
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-07-08T18:20:32
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-07-08T18:21:08
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-07-08T18:20:36
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-07-08T18:21:04
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-07-08T18:20:38
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-07-08T18:20:46
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-07-08T18:20:52
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-07-08T18:21:02
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-07-08T18:21:10
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-07-08T18:20:50
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-07-08T18:20:42
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-07-08T18:20:34
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-07-08T18:21:00
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-07-08T18:21:16
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-07-08T18:20:56
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-07-08T18:20:48
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-07-08T18:21:18
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-07-08T18:20:30
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-07-08T18:21:06
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-07-08T18:20:40
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-07-08T18:20:58
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-07-08T18:21:14
+================================================================================
+[2021-07-08 15:21:24,707] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:21:24,707] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:16:24.707614+00:00
+[2021-07-08 15:21:36,719] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:21:36,719] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:16:36.719873+00:00
+[2021-07-08 15:21:46,729] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:21:46,729] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:16:46.729264+00:00
+[2021-07-08 15:21:48,834] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-07-08T18:21:34
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-07-08T18:21:44
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-07-08T18:21:12
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-07-08T18:21:22
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-07-08T18:21:08
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-07-08T18:21:26
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-07-08T18:21:04
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-07-08T18:21:28
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-07-08T18:21:36
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-07-08T18:21:42
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-07-08T18:21:02
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-07-08T18:21:10
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-07-08T18:21:40
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-07-08T18:21:32
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-07-08T18:21:24
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-07-08T18:21:00
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-07-08T18:21:16
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-07-08T18:21:46
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-07-08T18:21:38
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-07-08T18:21:18
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-07-08T18:21:20
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-07-08T18:21:06
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-07-08T18:21:30
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-07-08T18:21:48
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-07-08T18:21:14
+================================================================================
+[2021-07-08 15:21:56,740] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:21:56,741] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:16:56.741075+00:00
+[2021-07-08 15:22:06,752] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:22:06,752] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:17:06.752891+00:00
+[2021-07-08 15:22:18,766] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:22:18,766] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:17:18.766592+00:00
+[2021-07-08 15:22:18,892] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-07-08T18:21:34
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-07-08T18:21:44
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-07-08T18:22:02
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-07-08T18:22:12
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-07-08T18:21:58
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-07-08T18:22:16
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-07-08T18:21:54
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-07-08T18:22:18
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-07-08T18:21:36
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-07-08T18:21:42
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-07-08T18:21:52
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-07-08T18:22:00
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-07-08T18:21:40
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-07-08T18:21:32
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-07-08T18:22:14
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-07-08T18:21:50
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-07-08T18:22:06
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-07-08T18:21:46
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-07-08T18:21:38
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-07-08T18:22:08
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-07-08T18:22:10
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-07-08T18:21:56
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-07-08T18:21:30
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-07-08T18:21:48
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-07-08T18:22:04
+================================================================================
+[2021-07-08 15:22:30,780] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:22:30,780] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:17:30.780458+00:00
+[2021-07-08 15:22:42,794] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:22:42,794] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:17:42.794359+00:00
+[2021-07-08 15:22:48,905] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-07-08T18:22:24
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-07-08T18:22:34
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-07-08T18:22:02
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-07-08T18:22:12
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-07-08T18:22:48
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-07-08T18:22:16
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-07-08T18:22:44
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-07-08T18:22:18
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-07-08T18:22:26
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-07-08T18:22:32
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-07-08T18:22:42
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-07-08T18:22:00
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-07-08T18:22:30
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-07-08T18:22:22
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-07-08T18:22:14
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-07-08T18:22:40
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-07-08T18:22:06
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-07-08T18:22:36
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-07-08T18:22:28
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-07-08T18:22:08
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-07-08T18:22:10
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-07-08T18:22:46
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-07-08T18:22:20
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-07-08T18:22:38
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-07-08T18:22:04
+================================================================================
+[2021-07-08 15:22:54,807] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:22:54,807] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:17:54.807918+00:00
+[2021-07-08 15:23:06,821] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:23:06,821] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:18:06.821806+00:00
+[2021-07-08 15:23:18,835] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:23:18,836] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:18:18.836028+00:00
+[2021-07-08 15:23:18,961] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-07-08T18:23:14
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-07-08T18:22:34
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-07-08T18:22:52
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-07-08T18:23:02
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-07-08T18:22:48
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-07-08T18:23:06
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-07-08T18:22:44
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-07-08T18:23:08
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-07-08T18:23:16
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-07-08T18:22:32
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-07-08T18:22:42
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-07-08T18:22:50
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-07-08T18:22:30
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-07-08T18:23:12
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-07-08T18:23:04
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-07-08T18:22:40
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-07-08T18:22:56
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-07-08T18:22:36
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-07-08T18:23:18
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-07-08T18:22:58
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-07-08T18:23:00
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-07-08T18:22:46
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-07-08T18:23:10
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-07-08T18:22:38
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-07-08T18:22:54
+================================================================================
+[2021-07-08 15:23:30,847] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:23:30,847] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:18:30.847879+00:00
+[2021-07-08 15:23:42,861] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:23:42,861] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:18:42.861908+00:00
+[2021-07-08 15:23:48,972] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-07-08T18:23:14
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-07-08T18:23:24
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-07-08T18:23:42
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-07-08T18:23:02
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-07-08T18:23:38
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-07-08T18:23:06
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-07-08T18:23:34
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-07-08T18:23:08
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-07-08T18:23:16
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-07-08T18:23:22
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-07-08T18:23:32
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-07-08T18:23:40
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-07-08T18:23:20
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-07-08T18:23:12
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-07-08T18:23:04
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-07-08T18:23:30
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-07-08T18:23:46
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-07-08T18:23:26
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-07-08T18:23:18
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-07-08T18:23:48
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-07-08T18:23:00
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-07-08T18:23:36
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-07-08T18:23:10
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-07-08T18:23:28
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-07-08T18:23:44
+================================================================================
+[2021-07-08 15:23:54,875] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:23:54,875] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:18:54.875571+00:00
+[2021-07-08 15:24:04,886] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:24:04,886] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:19:04.886646+00:00
+[2021-07-08 15:24:14,897] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:24:14,898] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:19:14.897987+00:00
+[2021-07-08 15:24:19,005] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-07-08T18:24:04
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-07-08T18:24:15
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-07-08T18:23:42
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-07-08T18:23:52
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-07-08T18:23:38
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-07-08T18:23:56
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-07-08T18:23:34
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-07-08T18:23:58
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-07-08T18:24:06
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-07-08T18:24:12
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-07-08T18:23:32
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-07-08T18:23:40
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-07-08T18:24:10
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-07-08T18:24:02
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-07-08T18:23:54
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-07-08T18:23:30
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-07-08T18:23:46
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-07-08T18:24:17
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-07-08T18:24:08
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-07-08T18:23:48
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-07-08T18:23:50
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-07-08T18:23:36
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-07-08T18:24:00
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-07-08T18:24:19
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-07-08T18:23:44
+================================================================================
+[2021-07-08 15:24:24,908] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:24:24,908] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:19:24.908385+00:00
+[2021-07-08 15:24:34,919] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:24:34,919] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:19:34.919957+00:00
+[2021-07-08 15:24:44,931] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:24:44,931] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:19:44.931581+00:00
+[2021-07-08 15:24:48,935] {dag_processing.py:939} INFO - Searching for files in /home/anonymous/Documents/datapipeline/airflow/dags
+[2021-07-08 15:24:48,938] {dag_processing.py:942} INFO - There are 25 files in /home/anonymous/Documents/datapipeline/airflow/dags
+[2021-07-08 15:24:49,064] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-07-08T18:24:04
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-07-08T18:24:15
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-07-08T18:24:33
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-07-08T18:24:43
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-07-08T18:24:29
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-07-08T18:24:47
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-07-08T18:24:25
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-07-08T18:24:49
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-07-08T18:24:06
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-07-08T18:24:12
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-07-08T18:24:23
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-07-08T18:24:31
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-07-08T18:24:10
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-07-08T18:24:02
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-07-08T18:24:45
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-07-08T18:24:21
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-07-08T18:24:37
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-07-08T18:24:17
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-07-08T18:24:08
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-07-08T18:24:39
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-07-08T18:24:41
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-07-08T18:24:27
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-07-08T18:24:00
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-07-08T18:24:19
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-07-08T18:24:35
+================================================================================
+[2021-07-08 15:24:54,942] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:24:54,943] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:19:54.943008+00:00
+[2021-07-08 15:25:06,956] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:25:06,956] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:20:06.956656+00:00
+[2021-07-08 15:25:16,967] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:25:16,968] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:20:16.968056+00:00
+[2021-07-08 15:25:19,073] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-07-08T18:24:55
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-07-08T18:25:05
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-07-08T18:24:33
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-07-08T18:24:43
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-07-08T18:25:19
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-07-08T18:24:47
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-07-08T18:25:15
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-07-08T18:24:49
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-07-08T18:24:57
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-07-08T18:25:03
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-07-08T18:25:13
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-07-08T18:24:31
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-07-08T18:25:01
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-07-08T18:24:53
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-07-08T18:24:45
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-07-08T18:25:11
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-07-08T18:24:37
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-07-08T18:25:07
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-07-08T18:24:59
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-07-08T18:24:39
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-07-08T18:24:41
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-07-08T18:25:17
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-07-08T18:24:51
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-07-08T18:25:09
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-07-08T18:24:35
+================================================================================
+[2021-07-08 15:25:26,979] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:25:26,979] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:20:26.979618+00:00
+[2021-07-08 15:25:36,990] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:25:36,990] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:20:36.990454+00:00
+[2021-07-08 15:25:47,001] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-07-08 15:25:47,001] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2021-07-08 18:20:47.001779+00:00
+[2021-07-08 15:25:49,107] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2021-07-08T18:25:45
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2021-07-08T18:25:05
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2021-07-08T18:25:23
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2021-07-08T18:25:33
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2021-07-08T18:25:19
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2021-07-08T18:25:37
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2021-07-08T18:25:15
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2021-07-08T18:25:39
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2021-07-08T18:25:47
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2021-07-08T18:25:03
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2021-07-08T18:25:13
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2021-07-08T18:25:21
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2021-07-08T18:25:01
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2021-07-08T18:25:43
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2021-07-08T18:25:35
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2021-07-08T18:25:11
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2021-07-08T18:25:27
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2021-07-08T18:25:07
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2021-07-08T18:25:49
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2021-07-08T18:25:29
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2021-07-08T18:25:31
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2021-07-08T18:25:17
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2021-07-08T18:25:41
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2021-07-08T18:25:09
+/home/anonymous/Documents/datapipeline/.env/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2021-07-08T18:25:25
+================================================================================
