@@ -1,0 +1,462 @@
+[2021-07-10 21:00:36,829] {scheduler_job.py:154} INFO - Started process (PID=12740) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:00:36,831] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:00:36,831] {logging_mixin.py:112} INFO - [2021-07-10 21:00:36,831] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:00:36,832] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:00:36,838] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:00:36,854] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:00:36,861] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:00:36,862] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.033 seconds
+[2021-07-10 21:01:28,887] {scheduler_job.py:154} INFO - Started process (PID=12775) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:01:28,888] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:01:28,889] {logging_mixin.py:112} INFO - [2021-07-10 21:01:28,889] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:01:28,890] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:01:28,895] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:01:28,920] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:01:28,927] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:01:28,929] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.042 seconds
+[2021-07-10 21:02:20,945] {scheduler_job.py:154} INFO - Started process (PID=12812) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:02:20,947] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:02:20,947] {logging_mixin.py:112} INFO - [2021-07-10 21:02:20,947] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:02:20,948] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:02:20,953] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:02:20,979] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:02:20,986] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:02:20,988] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.042 seconds
+[2021-07-10 21:03:13,027] {scheduler_job.py:154} INFO - Started process (PID=12846) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:03:13,029] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:03:13,029] {logging_mixin.py:112} INFO - [2021-07-10 21:03:13,029] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:03:13,030] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:03:13,035] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:03:13,052] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:03:13,059] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:03:13,061] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.035 seconds
+[2021-07-10 21:04:05,062] {scheduler_job.py:154} INFO - Started process (PID=12881) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:04:05,064] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:04:05,064] {logging_mixin.py:112} INFO - [2021-07-10 21:04:05,064] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:04:05,065] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:04:05,070] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:04:05,095] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:04:05,103] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:04:05,104] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.042 seconds
+[2021-07-10 21:04:57,119] {scheduler_job.py:154} INFO - Started process (PID=12914) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:04:57,120] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:04:57,120] {logging_mixin.py:112} INFO - [2021-07-10 21:04:57,120] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:04:57,122] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:04:57,126] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:04:57,151] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:04:57,157] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:04:57,159] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.040 seconds
+[2021-07-10 21:05:49,177] {scheduler_job.py:154} INFO - Started process (PID=12950) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:05:49,179] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:05:49,179] {logging_mixin.py:112} INFO - [2021-07-10 21:05:49,179] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:05:49,180] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:05:49,185] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:05:49,201] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:05:49,209] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:05:49,210] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.034 seconds
+[2021-07-10 21:06:41,237] {scheduler_job.py:154} INFO - Started process (PID=12985) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:06:41,239] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:06:41,239] {logging_mixin.py:112} INFO - [2021-07-10 21:06:41,239] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:06:41,240] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:06:41,245] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:06:41,270] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:06:41,278] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:06:41,280] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.043 seconds
+[2021-07-10 21:07:33,296] {scheduler_job.py:154} INFO - Started process (PID=13021) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:07:33,298] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:07:33,298] {logging_mixin.py:112} INFO - [2021-07-10 21:07:33,298] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:07:33,299] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:07:33,304] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:07:33,331] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:07:33,338] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:07:33,339] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.043 seconds
+[2021-07-10 21:08:25,356] {scheduler_job.py:154} INFO - Started process (PID=13055) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:08:25,357] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:08:25,358] {logging_mixin.py:112} INFO - [2021-07-10 21:08:25,358] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:08:25,359] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:08:25,364] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:08:25,380] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:08:25,387] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:08:25,388] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.033 seconds
+[2021-07-10 21:09:17,416] {scheduler_job.py:154} INFO - Started process (PID=13091) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:09:17,418] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:09:17,418] {logging_mixin.py:112} INFO - [2021-07-10 21:09:17,418] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:09:17,419] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:09:17,424] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:09:17,440] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:09:17,448] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:09:17,449] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.033 seconds
+[2021-07-10 21:10:09,475] {scheduler_job.py:154} INFO - Started process (PID=13129) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:10:09,477] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:10:09,477] {logging_mixin.py:112} INFO - [2021-07-10 21:10:09,477] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:10:09,478] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:10:09,483] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:10:09,508] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:10:09,515] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:10:09,517] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.042 seconds
+[2021-07-10 21:11:01,536] {scheduler_job.py:154} INFO - Started process (PID=13159) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:11:01,538] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:11:01,538] {logging_mixin.py:112} INFO - [2021-07-10 21:11:01,538] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:11:01,539] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:11:01,544] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:11:01,563] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:11:01,571] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:11:01,572] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.036 seconds
+[2021-07-10 21:11:53,596] {scheduler_job.py:154} INFO - Started process (PID=13199) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:11:53,597] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:11:53,597] {logging_mixin.py:112} INFO - [2021-07-10 21:11:53,597] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:11:53,598] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:11:53,603] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:11:53,629] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:11:53,637] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:11:53,639] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.043 seconds
+[2021-07-10 21:12:45,655] {scheduler_job.py:154} INFO - Started process (PID=13235) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:12:45,656] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:12:45,657] {logging_mixin.py:112} INFO - [2021-07-10 21:12:45,657] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:12:45,658] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:12:45,664] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:12:45,680] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:12:45,688] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:12:45,690] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.035 seconds
+[2021-07-10 21:13:37,736] {scheduler_job.py:154} INFO - Started process (PID=13267) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:13:37,738] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:13:37,738] {logging_mixin.py:112} INFO - [2021-07-10 21:13:37,738] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:13:37,739] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:13:37,744] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:13:37,759] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:13:37,766] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:13:37,768] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.032 seconds
+[2021-07-10 21:14:29,773] {scheduler_job.py:154} INFO - Started process (PID=13301) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:14:29,775] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:14:29,775] {logging_mixin.py:112} INFO - [2021-07-10 21:14:29,775] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:14:29,776] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:14:29,781] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:14:29,806] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:14:29,813] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:14:29,814] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.041 seconds
+[2021-07-10 21:15:21,832] {scheduler_job.py:154} INFO - Started process (PID=13353) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:15:21,833] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:15:21,834] {logging_mixin.py:112} INFO - [2021-07-10 21:15:21,833] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:15:21,835] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:15:21,839] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:15:21,865] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:15:21,871] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:15:21,873] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.042 seconds
+[2021-07-10 21:16:13,912] {scheduler_job.py:154} INFO - Started process (PID=13505) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:16:13,913] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:16:13,913] {logging_mixin.py:112} INFO - [2021-07-10 21:16:13,913] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:16:13,914] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:16:13,919] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:16:13,934] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:16:13,940] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:16:13,942] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.030 seconds
+[2021-07-10 21:17:05,948] {scheduler_job.py:154} INFO - Started process (PID=13570) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:17:05,949] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:17:05,949] {logging_mixin.py:112} INFO - [2021-07-10 21:17:05,949] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:17:05,951] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:17:05,956] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:17:05,971] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:17:05,978] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:17:05,980] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.032 seconds
+[2021-07-10 21:17:58,008] {scheduler_job.py:154} INFO - Started process (PID=13634) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:17:58,010] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:17:58,010] {logging_mixin.py:112} INFO - [2021-07-10 21:17:58,010] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:17:58,011] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:17:58,016] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:17:58,041] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:17:58,049] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:17:58,050] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.042 seconds
+[2021-07-10 21:18:50,090] {scheduler_job.py:154} INFO - Started process (PID=13708) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:18:50,091] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:18:50,092] {logging_mixin.py:112} INFO - [2021-07-10 21:18:50,092] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:18:50,093] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:18:50,098] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:18:50,113] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:18:50,120] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:18:50,121] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.032 seconds
+[2021-07-10 21:19:42,124] {scheduler_job.py:154} INFO - Started process (PID=13748) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:19:42,126] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:19:42,126] {logging_mixin.py:112} INFO - [2021-07-10 21:19:42,126] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:19:42,127] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:19:42,132] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:19:42,153] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:19:42,161] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:19:42,162] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.039 seconds
+[2021-07-10 21:20:34,178] {scheduler_job.py:154} INFO - Started process (PID=13803) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:20:34,179] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:20:34,180] {logging_mixin.py:112} INFO - [2021-07-10 21:20:34,180] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:20:34,181] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:20:34,186] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:20:34,212] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:20:34,219] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:20:34,221] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.043 seconds
+[2021-07-10 21:21:26,261] {scheduler_job.py:154} INFO - Started process (PID=13934) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:21:26,263] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:21:26,263] {logging_mixin.py:112} INFO - [2021-07-10 21:21:26,263] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:21:26,264] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:21:26,270] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:21:26,286] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:21:26,295] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:21:26,297] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.036 seconds
+[2021-07-10 21:22:18,295] {scheduler_job.py:154} INFO - Started process (PID=14010) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:22:18,307] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:22:18,308] {logging_mixin.py:112} INFO - [2021-07-10 21:22:18,308] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:22:18,309] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:22:18,314] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:22:18,330] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:22:18,337] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:22:18,339] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.043 seconds
+[2021-07-10 21:23:10,354] {scheduler_job.py:154} INFO - Started process (PID=14044) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:23:10,356] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:23:10,356] {logging_mixin.py:112} INFO - [2021-07-10 21:23:10,356] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:23:10,357] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:23:10,362] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:23:10,387] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:23:10,394] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:23:10,395] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.041 seconds
+[2021-07-10 21:24:02,415] {scheduler_job.py:154} INFO - Started process (PID=14103) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:24:02,416] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:24:02,417] {logging_mixin.py:112} INFO - [2021-07-10 21:24:02,417] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:24:02,418] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:24:02,423] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:24:02,438] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:24:02,446] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:24:02,448] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.033 seconds
+[2021-07-10 21:24:54,475] {scheduler_job.py:154} INFO - Started process (PID=14141) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:24:54,476] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:24:54,477] {logging_mixin.py:112} INFO - [2021-07-10 21:24:54,477] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:24:54,478] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:24:54,482] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:24:54,498] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:24:54,506] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:24:54,507] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.033 seconds
+[2021-07-10 21:25:46,535] {scheduler_job.py:154} INFO - Started process (PID=14182) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:25:46,537] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:25:46,537] {logging_mixin.py:112} INFO - [2021-07-10 21:25:46,537] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:25:46,538] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:25:46,543] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:25:46,569] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:25:46,576] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:25:46,577] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.042 seconds
+[2021-07-10 21:26:38,595] {scheduler_job.py:154} INFO - Started process (PID=14218) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:26:38,596] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:26:38,596] {logging_mixin.py:112} INFO - [2021-07-10 21:26:38,596] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:26:38,598] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:26:38,603] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:26:38,618] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:26:38,625] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:26:38,626] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.032 seconds
+[2021-07-10 21:27:30,655] {scheduler_job.py:154} INFO - Started process (PID=14258) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:27:30,656] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:27:30,656] {logging_mixin.py:112} INFO - [2021-07-10 21:27:30,656] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:27:30,657] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:27:30,663] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:27:30,688] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:27:30,694] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:27:30,696] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.041 seconds
+[2021-07-10 21:28:22,715] {scheduler_job.py:154} INFO - Started process (PID=14288) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:28:22,717] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:28:22,717] {logging_mixin.py:112} INFO - [2021-07-10 21:28:22,717] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:28:22,718] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:28:22,723] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:28:22,748] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:28:22,755] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:28:22,756] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.041 seconds
+[2021-07-10 21:29:14,782] {scheduler_job.py:154} INFO - Started process (PID=14325) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:29:14,784] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:29:14,784] {logging_mixin.py:112} INFO - [2021-07-10 21:29:14,784] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:29:14,786] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:29:14,790] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:29:14,805] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:29:14,812] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:29:14,813] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.031 seconds
+[2021-07-10 21:30:06,835] {scheduler_job.py:154} INFO - Started process (PID=14363) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:30:06,837] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:30:06,837] {logging_mixin.py:112} INFO - [2021-07-10 21:30:06,837] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:30:06,838] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:30:06,843] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:30:06,858] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:30:06,865] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:30:06,867] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.032 seconds
+[2021-07-10 21:30:58,896] {scheduler_job.py:154} INFO - Started process (PID=14393) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:30:58,897] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:30:58,898] {logging_mixin.py:112} INFO - [2021-07-10 21:30:58,898] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:30:58,899] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:30:58,904] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:30:58,929] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:30:58,936] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:30:58,937] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.042 seconds
+[2021-07-10 21:31:50,957] {scheduler_job.py:154} INFO - Started process (PID=14433) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:31:50,958] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:31:50,959] {logging_mixin.py:112} INFO - [2021-07-10 21:31:50,958] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:31:50,960] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:31:50,965] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:31:50,981] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:31:50,988] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:31:50,990] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.033 seconds
+[2021-07-10 21:32:43,017] {scheduler_job.py:154} INFO - Started process (PID=14467) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:32:43,018] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:32:43,018] {logging_mixin.py:112} INFO - [2021-07-10 21:32:43,018] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:32:43,019] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:32:43,024] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:32:43,040] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:32:43,047] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:32:43,049] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.032 seconds
+[2021-07-10 21:33:35,076] {scheduler_job.py:154} INFO - Started process (PID=14498) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:33:35,078] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:33:35,078] {logging_mixin.py:112} INFO - [2021-07-10 21:33:35,078] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:33:35,079] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:33:35,084] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:33:35,109] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:33:35,116] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:33:35,117] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.041 seconds
+[2021-07-10 21:34:27,159] {scheduler_job.py:154} INFO - Started process (PID=14532) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:34:27,160] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:34:27,160] {logging_mixin.py:112} INFO - [2021-07-10 21:34:27,160] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:34:27,162] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:34:27,167] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:34:27,191] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:34:27,198] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:34:27,200] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.041 seconds
+[2021-07-10 21:35:19,195] {scheduler_job.py:154} INFO - Started process (PID=14579) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:35:19,197] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:35:19,197] {logging_mixin.py:112} INFO - [2021-07-10 21:35:19,197] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:35:19,199] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:35:19,203] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:35:19,228] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:35:19,235] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:35:19,237] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.042 seconds
+[2021-07-10 21:36:11,254] {scheduler_job.py:154} INFO - Started process (PID=14643) to work on /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:36:11,256] {scheduler_job.py:1572} INFO - Processing file /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py for tasks to queue
+[2021-07-10 21:36:11,256] {logging_mixin.py:112} INFO - [2021-07-10 21:36:11,256] {dagbag.py:417} INFO - Filling up the DagBag from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:36:11,257] {logging_mixin.py:112} WARNING - /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py:5: FutureWarning: Importing 'TwitterOperator' from under 'airflow.operators.*' has been deprecated and should be directly imported as 'operators.twitter_operator.TwitterOperator' instead.
+
+Support for importing from within the airflow namespace for plugins will be dropped entirely in Airflow 2.0. See <http://airflow.apache.org/docs/stable/howto/custom-operator.html>.
+  from airflow.operators.alura import TwitterOperator
+[2021-07-10 21:36:11,262] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['twitter_dag']) retrieved from /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py
+[2021-07-10 21:36:11,288] {scheduler_job.py:1288} INFO - Processing twitter_dag
+[2021-07-10 21:36:11,294] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: twitter_dag> because no tasks in DAG have SLAs
+[2021-07-10 21:36:11,296] {scheduler_job.py:162} INFO - Processing /home/anonymous/Documents/datapipeline/airflow/dags/twitter_dag.py took 0.042 seconds
