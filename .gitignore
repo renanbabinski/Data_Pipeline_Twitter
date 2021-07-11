@@ -1,4 +1,4 @@
 .env
 /datalake
 *.log
-airflow/log
+/airflow/log
